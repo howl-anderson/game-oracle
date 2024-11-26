@@ -1,0 +1,6 @@
+jsonlines
+tqdm
+gql[all]
+pandas
+tenacity
+pytest
