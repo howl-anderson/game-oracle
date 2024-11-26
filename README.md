@@ -1,13 +1,54 @@
-## Data pipeline
+# Game Oracle
 
-### Get player data
+A data pipeline project for collecting and processing game-related data.
 
-get_players.ipynb
+## Installation
 
-### Get match data
+### Prerequisites
 
-get_matches_by_player.ipynb
+- Python 3.x
+- pip (Python package installer)
 
-### Parse match data
+### Install dependencies
 
-parse_matches.ipynb
+```bash
+pip install -r requirements.txt
+```
+
+
+## Data Pipeline
+
+### 1. Get Player Data
+Run the player data collection script:
+```bash
+python get_players.py
+```
+
+### 2. Get Match Data
+Collect match data for players:
+```bash
+python get_matches_by_player.py
+```
+
+### 3. Parse Match Data
+Process and parse the collected match data:
+```bash
+python parse_matches.py
+```
+
+### 4. Convert to Public Dataset
+Convert the parsed match data to a public dataset:
+```bash
+python convert_to_public_dataset.py
+```
+
+## Testing
+
+Run the test suite using pytest:
+```bash
+pytest
+```
+
+## License
+
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
